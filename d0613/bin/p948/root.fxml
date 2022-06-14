@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<HBox alignment="CENTER" prefHeight="50.0" prefWidth="400.0" spacing="20" xmlns:fx="http://javafx.com/fxml">
+   <children>
+      <Label id="lblId" text="검정바탕,노란글씨"/>
+      <Label styleClass="lblClass" text="파란바탕,흰글씨"/>
+      <Label styleClass="lblClass" text="파란바탕,흰글씨"/>
+   </children>
+</HBox>

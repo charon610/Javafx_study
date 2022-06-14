@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<HBox prefHeight="46.0" prefWidth="295.0" xmlns:fx="http://javafx.com/fxml">
+   <children>
+      <TextField prefHeight="23.0" prefWidth="210.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <HBox.margin>
+            <Insets left="10.0" top="10.0" />
+         </HBox.margin>
+      </TextField>
+      <Button alignment="BOTTOM_LEFT" text="Button">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <HBox.margin>
+            <Insets left="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+      </Button>
+   </children>
+</HBox>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane fx:controller="p897.RootController"
+prefHeight="185.0" prefWidth="521.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <HBox prefHeight="100.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="377.0" prefWidth="68.0" spacing="20.0">
+               <children>
+                  <CheckBox fx:id="chk1" mnemonicParsing="false" onAction="#handleChkAction" text="안경">
+                     <VBox.margin>
+                        <Insets left="10.0" top="20.0" />
+                     </VBox.margin></CheckBox>
+                  <CheckBox fx:id="chk2" mnemonicParsing="false" onAction="#handleChkAction" text="모자">
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin></CheckBox>
+               </children>
+            </VBox>
+            <ImageView fx:id="checkImageView" fitHeight="109.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets top="5.0" />
+               </HBox.margin>
+               <image>
+                  <Image url="@img/geek.gif" />
+               </image></ImageView>
+            <Separator orientation="VERTICAL" prefHeight="200.0" />
+            <VBox prefHeight="100.0" prefWidth="150.0" spacing="20.0">
+               <children>
+                  <RadioButton fx:id="rad1" mnemonicParsing="false" text="BubbleChart">
+                     <VBox.margin>
+                        <Insets left="5.0" top="5.0" />
+                     </VBox.margin>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="group" />
+                     </toggleGroup></RadioButton>
+                  <RadioButton fx:id="rad2" mnemonicParsing="false" text="BarChart" toggleGroup="$group">
+                     <VBox.margin>
+                        <Insets left="5.0" />
+                     </VBox.margin></RadioButton>
+                  <RadioButton fx:id="rad3" mnemonicParsing="false" text="AreaChart" toggleGroup="$group">
+                     <VBox.margin>
+                        <Insets left="5.0" />
+                     </VBox.margin></RadioButton>
+               </children>
+            </VBox>
+            <ImageView fx:id="radioImageView" fitHeight="111.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets right="10.0" top="5.0" />
+               </HBox.margin>
+               <image>
+                  <Image url="@img/BarChart.png" />
+               </image></ImageView>
+         </children>
+      </HBox>
+   </center>
+   <bottom>
+      <Button fx:id="btnExit" mnemonicParsing="false" onAction="#handleBtnExitAction" text="Button" BorderPane.alignment="CENTER">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/exit.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+   </bottom>
+</BorderPane>

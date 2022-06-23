@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="321.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="350.0" layoutY="266.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" text="수정" />
+      <Button layoutX="430.0" layoutY="266.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" text="초기화">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+      <Button layoutX="510.0" layoutY="266.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" text="메인화면" />
+      <TextField layoutX="110.0" layoutY="100.0" prefWidth="160.0" promptText="이름을 입력하세요." />
+      <TextField layoutX="110.0" layoutY="141.0" prefWidth="160.0" promptText="강의명을 입력하세요" />
+      <TextField layoutX="110.0" layoutY="180.0" prefWidth="160.0" promptText="강의실 번호를 입력하세요." />
+      <TextField layoutX="110.0" layoutY="219.0" prefWidth="160.0" promptText="거주하는 시를 입력하세요" />
+      <TextField layoutX="402.0" layoutY="100.0" prefWidth="160.0" promptText="남,여" />
+      <TextField layoutX="402.0" layoutY="141.0" prefWidth="160.0" promptText="O / X" />
+      <Label layoutX="80.0" layoutY="104.0" text="이름" />
+      <Label layoutX="70.0" layoutY="145.0" text="강의명" />
+      <Label layoutX="41.0" layoutY="184.0" text="강의실 번호" />
+      <Label layoutX="58.0" layoutY="223.0" text="거주지명" />
+      <Label layoutX="370.0" layoutY="104.0" text="성별" />
+      <Label layoutX="322.0" layoutY="145.0" text="정보처리기사" />
+   </children>
+</AnchorPane>

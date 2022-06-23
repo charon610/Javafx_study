@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="43.0" layoutY="30.0" text="이름" />
+      <Label layoutX="43.0" layoutY="85.0" text="강의명" />
+      <Label layoutX="43.0" layoutY="154.0" text="강의실번호" />
+      <Label layoutX="43.0" layoutY="220.0" text="거주지명" />
+      <TextField fx:id="usernameTextField" layoutX="112.0" layoutY="27.0" prefHeight="26.0" prefWidth="159.0" promptText="이름을 입력하세요" />
+      <TextField fx:id="usernameTextField1" layoutX="112.0" layoutY="80.0" prefHeight="26.0" prefWidth="159.0" promptText="강의명을 입력하세요" />
+      <TextField fx:id="usernameTextField2" layoutX="112.0" layoutY="150.0" prefHeight="26.0" prefWidth="159.0" promptText="강의실 번호를 입력하세요" />
+      <TextField fx:id="usernameTextField3" layoutX="112.0" layoutY="215.0" prefHeight="26.0" prefWidth="159.0" promptText="거주지를 입력하세요" />
+      <Label layoutX="405.0" layoutY="155.0" text="자격증여부" />
+      <Label layoutX="423.0" layoutY="30.0" text="성별" />
+      <Button fx:id="loginButton" layoutX="374.0" layoutY="320.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="40.0" prefWidth="85.0" style="-fx-background-color: #139ab8;" text="초기화" textFill="WHITE" />
+      <Button fx:id="loginButton1" layoutX="489.0" layoutY="320.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="40.0" prefWidth="85.0" style="-fx-background-color: #139ab8;" text="메인화면" textFill="WHITE" />
+      <Button fx:id="loginButton2" layoutX="258.0" layoutY="320.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="40.0" prefWidth="85.0" style="-fx-background-color: #139ab8;" text="수정" textFill="WHITE" />
+      <TextField fx:id="usernameTextField4" layoutX="471.0" layoutY="27.0" prefHeight="26.0" prefWidth="85.0" promptText="남 / 여" />
+      <TextField fx:id="usernameTextField41" layoutX="471.0" layoutY="150.0" prefHeight="26.0" prefWidth="85.0" promptText="O / X" />
+   </children>
+</AnchorPane>

@@ -18,9 +18,9 @@ public class Main extends Application {
 		primaryStage.getIcons().add(new Image("application/instagram.png"));
 		primaryStage.setScene(new Scene(root, 600, 400));
 		primaryStage.show();
-	}	
-
+	}
+	
 	public static void main(String[] args) {
 		launch(args);
 	}
-}
+}	
